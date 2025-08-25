@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".friends"
+    android:orientation="vertical">
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#A1DEF8"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:src="@drawable/ic_back_blue" />
+
+            <ImageView
+                android:id="@+id/logoname"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/account"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_62sdp"
+                android:src="@drawable/ic_account_circle_blue" />
+
+        </Toolbar>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/backgroound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C7EBFB"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/leila"
+            android:paddingRight="@dimen/_30sdp"
+            android:text="  گروه دوستان"
+            android:textColor="#215C98"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_350sdp"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/button_white"
+                android:fontFamily="@font/leila"
+                android:gravity="right"
+                android:padding="@dimen/_5sdp"
+                android:text="   امیرعرشیا"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_back_blue"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/button_white"
+                android:fontFamily="@font/leila"
+                android:gravity="right"
+                android:padding="@dimen/_5sdp"
+                android:text="     کیانا"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_back_blue"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/button_white"
+                android:fontFamily="@font/leila"
+                android:gravity="right"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:text="   مهدیه "
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_back_blue"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/button_white"
+                android:fontFamily="@font/leila"
+                android:gravity="right"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:text="    پریا"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_back_blue"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/button_white"
+                android:fontFamily="@font/leila"
+                android:gravity="right"
+                android:padding="@dimen/_5sdp"
+                android:text="    سوگند"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_back_blue"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="#A1DEF8">
+
+                <LinearLayout
+                    android:id="@+id/home"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_home_gray" />
+
+                    <TextView
+                        android:layout_width="@dimen/_38sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:fontFamily="@font/leila"
+                        android:text="خانه"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/add"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_add_gray" />
+
+                    <TextView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-15dp"
+                        android:fontFamily="@font/leila"
+                        android:text="جدید"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/calender"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_calendar_gray" />
+
+                    <TextView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-15dp"
+                        android:fontFamily="@font/leila"
+                        android:text="تقویم"
+                        android:textColor="#999999"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/alarm"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_notifications_gray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-15dp"
+                        android:fontFamily="@font/leila"
+                        android:text="هشدار"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/more"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_more_gray" />
+
+                    <TextView
+                        android:layout_width="@dimen/_38sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-15dp"
+                        android:fontFamily="@font/leila"
+                        android:text="بیشتر"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

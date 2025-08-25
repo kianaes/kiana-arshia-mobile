@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C7EBFB"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_500sdp"
+            android:background="@drawable/button_white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/leila"
+                android:text="ثبت نام"
+                android:textColor="#215C98"
+                android:textSize="@dimen/_40sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="#D9D9D9"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:gravity="center"
+                    android:hint=" سفریار"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColorHint="#888888" />
+
+                <TextView
+                    android:id="@+id/firstname"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/leila"
+                    android:text=" نام  :"
+                    android:textColor="#215C98"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="#D9D9D9"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:gravity="center"
+                    android:hint=" سفریاری"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColorHint="#888888" />
+
+                <TextView
+                    android:id="@+id/lastname"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:fontFamily="@font/leila"
+                    android:text=" نام خانوادگی :"
+                    android:textColor="#215C98"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="#D9D9D9"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:gravity="center"
+                    android:hint=" \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColorHint="#888888" />
+
+                <TextView
+                    android:id="@+id/accountname"
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:fontFamily="@font/leila"
+                    android:text="نام کاربری:"
+                    android:textColor="#215C98"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="#D9D9D9"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:gravity="center"
+                    android:hint=" \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:textColorHint="#888888" />
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:fontFamily="@font/leila"
+                    android:text=" رمز عبور :"
+                    android:textColor="#215C98"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="#D9D9D9"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:gravity="center"
+                    android:hint=" sample.sample@Gmail.com"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#888888" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:fontFamily="@font/leila"
+                    android:text=" ایمیل :"
+                    android:textColor="#215C98"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ok"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_blue"
+                android:fontFamily="@font/leila"
+                android:text="برو  بریم  ! "
+                android:textColor="#fff"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
